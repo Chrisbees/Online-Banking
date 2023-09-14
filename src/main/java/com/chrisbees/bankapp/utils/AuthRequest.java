@@ -119,7 +119,7 @@ public class AuthRequest {
 //
 //        Message message = Message.creator(
 //                new PhoneNumber(phoneNumber),
-//                new PhoneNumber("+12568183084"),
+//                new PhoneNumber(""),
 //                "Your OTP is: " + otp
 //        ).create();
 //
