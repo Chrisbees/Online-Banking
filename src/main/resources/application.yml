@@ -1,0 +1,24 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bankdb
+    username: root
+    password: distinct
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      generate-ddl: true
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
+      database: MySql
+      database-platform: org.hibernate.dialect.MySQLDialect
+  logging:
+    level:
+      org.springframework.security: DEBUG
+
+
